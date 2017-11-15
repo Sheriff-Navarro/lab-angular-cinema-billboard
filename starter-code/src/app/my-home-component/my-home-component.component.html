@@ -1,3 +1,23 @@
 <p>
   my-home-component works!
 </p>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-1">
+    </div>
+    <div id="eachMovie"*ngFor="let movie of movies">
+      <div class="col-xs-2">
+        <div id="room">Room {{movie.room}}</div>
+        <div class="">
+          <img src="{{movie.poster}}" alt="">
+        </div>
+        <!-- <p id="room">{{movie.title}}</p> -->
+        <a id="room" [routerLink]="['/movie', movie.id]">{{movie.title}}</a>
+      </div>
+    </div>
+    <div class="col-xs-1">
+    </div>
+
+  </div>
+
+</div>

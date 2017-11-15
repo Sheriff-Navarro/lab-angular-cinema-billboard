@@ -22,11 +22,11 @@ movies: Object[]= [
       "Gil Bellows"
     ],
     hours: 2.25,
-    room: 5
+    room: 1
   }, {
     id: 2,
     title: "The Godfather",
-    poster: "https://i.imgur.com/Uzvny9I.jpg",
+    poster: "https://fontmeme.com/images/The-Godfather-Poster.jpg",
     synopsis: "In late summer 1945, guests are gathered for the wedding reception of Don Vito Corleone's daughter Connie (Talia Shire) and Carlo Rizzi (Gianni Russo). Vito...",
     genres: [
       "Crime", "Drama"
@@ -42,7 +42,7 @@ movies: Object[]= [
       "Sterling Hayden"
     ],
     hours: 2.5,
-    room: 4
+    room: 2
   }, {
     id: 3,
     title: "The Godfather Part II",
@@ -83,7 +83,7 @@ movies: Object[]= [
       "Gary Oldman"
     ],
     hours: 2.75,
-    room: 2
+    room: 4
   },
    {
     id: 5,
@@ -104,7 +104,7 @@ movies: Object[]= [
       "Embeth Davidtz"
     ],
     hours: 2.00,
-    room: 1
+    room: 5
   }
 ]
 

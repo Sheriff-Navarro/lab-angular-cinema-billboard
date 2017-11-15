@@ -1,0 +1,13 @@
+img {
+  height: 250px;
+  width: 100%;
+  margin:10px;
+}
+
+#room{
+  text-align: center;
+}
+
+#eachMovie {
+  margin: 15px 0px;
+}
