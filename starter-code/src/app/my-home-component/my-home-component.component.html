@@ -13,7 +13,8 @@
         <div id="specs">{{movie.hours}} Hours | Room {{movie.room}}</div>
         <div id="specs">Released: {{movie.year}}</div>
         <div class="row">
-          <button class="btn btn-warning"type="button" name="button"id="detsBtn">See Movie Details</button>
+          
+          <button [routerLink]="['/movie', movie.id]" class="btn btn-warning"type="button" name="button"id="detsBtn">See Movie Details</button>
         </div>
         </div>
 

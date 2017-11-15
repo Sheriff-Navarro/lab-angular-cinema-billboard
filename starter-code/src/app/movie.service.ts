@@ -15,11 +15,11 @@ movies: Object[]= [
     director: "Frank Darabont",
     actors: [
       "Tim Robbins",
-      "Morgan Freeman",
-      "Bob Gunton",
-      "William Sadler",
-      "Clancy Brown",
-      "Gil Bellows"
+      " Morgan Freeman ",
+      " Bob Gunton ",
+      " William Sadler ",
+      " Clancy Brown ",
+      " Gil Bellows "
     ],
     hours: 2.25,
     room: 1
