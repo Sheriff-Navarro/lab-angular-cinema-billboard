@@ -104,7 +104,7 @@ movies: Object[]= [
       "Embeth Davidtz"
     ],
     hours: 2.00,
-    room: 5
+    room: 5,
   }
 ]
 

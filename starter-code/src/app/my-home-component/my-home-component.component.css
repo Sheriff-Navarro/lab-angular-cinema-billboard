@@ -1,3 +1,12 @@
+body{
+  color: white;
+  /*font-family: 'Cuprum', sans-serif;*/
+font-family: 'Khand', sans-serif;
+}
+#movieList{
+margin-top: 80px;
+
+}
 img {
   height: 250px;
   width: 100%;
@@ -10,4 +19,37 @@ img {
 
 #eachMovie {
   margin: 15px 0px;
+}
+
+#specs{
+  color: white;
+  font-family: 'Cuprum', sans-serif;
+  font-size: 20px;
+}
+
+a{
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#detsBtn {
+  margin: 10px;
+  font-family: 'Khand', sans-serif;
+  padding: 15px;
+  color: white;
+  background-color: #ef7b40; ;
+  border-radius: 5px;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+#detsBtn:hover {
+  margin: 10px;
+  font-family: 'Khand', sans-serif;
+  padding: 15px;
+  color:  #ef7b40;
+  background-color:white;
+  border-radius: 5px;
+  font-size: 19px;
 }

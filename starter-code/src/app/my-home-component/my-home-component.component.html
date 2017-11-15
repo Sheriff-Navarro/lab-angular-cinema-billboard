@@ -1,19 +1,22 @@
-<p>
-  my-home-component works!
-</p>
-<div class="container">
+
+<div class="container" id="movieList">
   <div class="row">
     <div class="col-xs-1">
     </div>
     <div id="eachMovie"*ngFor="let movie of movies">
       <div class="col-xs-2">
-        <div id="room">Room {{movie.room}}</div>
         <div class="">
-          <img src="{{movie.poster}}" alt="">
+          <img [routerLink]="['/movie', movie.id]" src="{{movie.poster}}" alt="">
         </div>
         <!-- <p id="room">{{movie.title}}</p> -->
         <a id="room" [routerLink]="['/movie', movie.id]">{{movie.title}}</a>
-      </div>
+        <div id="specs">{{movie.hours}} Hours | Room {{movie.room}}</div>
+        <div id="specs">Released: {{movie.year}}</div>
+        <div class="row">
+          <button class="btn btn-warning"type="button" name="button"id="detsBtn">See Movie Details</button>
+        </div>
+        </div>
+
     </div>
     <div class="col-xs-1">
     </div>
